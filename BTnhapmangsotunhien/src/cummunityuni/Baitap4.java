@@ -8,14 +8,11 @@ public class Baitap4 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Nhập số lượng phần tử: ");
         int n = sc.nextInt();
-        int M[] = new int[n];
-        
+        int M[] = new int[n];   
         for (int i = 0; i < n; i++) {
             System.out.print("M[" + i + "] = ");
             M[i] = sc.nextInt();
         }
-
-        // --- DÒNG 1: SỐ LẺ ---
         System.out.print("\nDòng 1: Các số lẻ: ");
         int demLe = 0;
         for (int i = 0; i < n; i++) {
